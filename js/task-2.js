@@ -33,3 +33,12 @@ const galleryPic = images
   .join("");
 
 gallery.insertAdjacentHTML("beforeend", galleryPic);
+
+// const gallery = document.querySelector(".gallery");
+// const galleryPic = images
+//   .map(({ url, alt }) => {
+//     return `<li class="gallery-pic"><img src="${url}" alt="${alt}" width="360" height="300" class="gallery-image"></li>`;
+//   })
+//   .join("");
+
+// gallery.insertAdjacentHTML("beforeend", galleryPic);
